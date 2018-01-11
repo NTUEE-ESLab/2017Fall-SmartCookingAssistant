@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>PersonalRecipes.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>Recipe.qml</file>
+        <file>CookingPage.qml</file>
+        <file>OtherRecipes.qml</file>
+        <file alias="recipes">../Resource/recipes.json</file>
+        <file>http.js</file>
+    </qresource>
+</RCC>

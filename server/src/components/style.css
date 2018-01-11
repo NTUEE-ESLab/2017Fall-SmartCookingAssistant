@@ -1,0 +1,50 @@
+.article-main {
+  height: 400px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.loginBlock {
+  border-style: solid;
+  display: inline-block;
+  border-width: 20px;
+  border-radius: 10px;
+  border-color: #eef;
+  background: #eef;
+  position: relative;
+  left: 50%;
+  transform: translate( -50%, 0 );
+  width: 500px;
+}
+
+.form-control {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translate( -50%, 0 );
+}
+
+.signupBlock {
+  border-style: solid;
+  display: inline-block;
+  border-width: 20px;
+  border-radius: 10px;
+  border-color: #efe;
+  background: #efe;
+  position: relative;
+  left: 50%;
+  transform: translate( -50%, 0 );
+  width: 500px;
+}
+
+hr {
+  margin: 1px;
+}
+
+.submit {
+  position: relative;
+  left: 50%;
+  transform: translate( -50%, 0 );
+}

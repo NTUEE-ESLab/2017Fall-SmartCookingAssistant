@@ -1,0 +1,68 @@
+{
+    "ingredients": [{
+        "name": "南瓜",
+        "amount": "1顆"
+    }, {
+        "name": "米粉",
+        "amount": "1包"
+    }, {
+        "name": "蔥",
+        "amount": "1支"
+    }, {
+        "name": "豬絞肉",
+        "amount": "150g"
+    }, {
+        "name": "香菇",
+        "amount": "10朵"
+    }],
+    "seasonings": [{
+        "name": "糖",
+        "amount": "少許"
+    }, {
+        "name": "鹽",
+        "amount": "少許"
+    }, {
+        "name": "醬油",
+        "amount": "一匙"
+    }, {
+        "name": "烏醋",
+        "amount": "少許"
+    }, {
+        "name": "胡椒粉",
+        "amount": "適量"
+    }, {
+        "name": "米酒",
+        "amount": "少許"
+    }],
+    "steps": [{
+        "used": {
+            "ingredients": [ 0 ],
+            "seasonings": []
+        },
+        "description": "<font color='red'>南瓜</font>切塊狀蒸熟，湯匙壓成粗泥塊狀備用"
+    }, {
+        "used": {
+            "ingredients": [ 1, 4 ],
+            "seasonings": []
+        },
+        "description": "<font color='red'>米粉</font>與<font color='red'>香菇</font>泡軟蒸熟備用"
+    }, {
+        "used": {
+            "ingredients": [ 2 ],
+            "seasonings": []
+        },
+        "description": "小火起油鍋，<font color='red'>蔥段</font>爆香"
+    }, {
+        "used": {
+            "ingredients": [ 3, 4 ],
+            "seasonings": [ 0, 1, 2, 3, 5 ]
+        },
+        "description": "加入<font color='red'>香菇</font>與<font color='red'>豬絞肉</font>拌炒中火，<font color='red'>豬絞肉</font>變色時加一點<font color='red'>米酒</font>，陸續加入調味料調味，煨炒均勻"
+    }, {
+        "used": {
+            "ingredients": [ 0, 1 ],
+            "seasonings": [ 4 ]
+        },
+        "description": "接著<font color='red'>米粉</font>與<font color='red'>南瓜</font>粗泥拌入加水略煨煮，炒勻收汁，撒上<font color='red'>胡椒粉</font>拌勻"
+    }]
+}
