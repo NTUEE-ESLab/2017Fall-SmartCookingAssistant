@@ -26,6 +26,7 @@ namespace app {
 
     auto Instance::init() -> void {
         engine = new QQmlApplicationEngine;
+        engine->addImportPath("../fluid/qml");
         QFile file;
         file.setFileName(":/recipes");
         file.open(QIODevice::ReadOnly | QIODevice::Text);
@@ -49,19 +50,19 @@ namespace app {
 
     auto Instance::Connect() -> void {
         QTextStream out(stdout);
-        out << "connect start" << endl;/*
+        out << "connect start" << endl;
         qtcpSpeech = new QTcpSocket;
         qtcpSpeech->connectToHost("192.168.1.153", 8001, QIODevice::ReadWrite);
-        qtcpSpeech->waitForConnected();*/
+        qtcpSpeech->waitForConnected();/*
         qtcpMSP432 = new QTcpSocket;
         qtcpMSP432->connectToHost("192.168.1.153", 8002, QIODevice::ReadWrite);
-        qtcpMSP432->waitForConnected();
+        qtcpMSP432->waitForConnected();*/
 
-//        while(1) {
-//            qtcpSpeech->waitForReadyRead();
-//            QVariant msg = QVariant(qtcpSpeech->readAll());
-//            QMetaObject::invokeMethod(engine->rootObjects().first(), "receiveData", (QGenericReturnArgument)NULL, Q_ARG(QVariant, msg));
-//        }
+        while(1) {
+            qtcpSpeech->waitForReadyRead();
+            QVariant msg = QVariant(qtcpSpeech->readAll());
+            QMetaObject::invokeMethod(engine->rootObjects().first(), "receiveData", (QGenericReturnArgument)NULL, Q_ARG(QVariant, msg));
+        }
     }
 
     auto Instance::Execute(int argc, char** argv) -> int {

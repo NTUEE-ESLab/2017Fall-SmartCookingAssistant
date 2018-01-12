@@ -29,6 +29,8 @@
 #include "qqmlsortfilterproxymodel.h"
 #include <QtQml>
 
+#include "moc_qqmlsortfilterproxymodel.cpp"
+
 QQmlSortFilterProxyModel::QQmlSortFilterProxyModel(QObject *parent)
     : QSortFilterProxyModel(parent)
     , m_filterExpression(0)
@@ -279,5 +281,3 @@ QVariantMap QQmlSortFilterProxyModel::modelDataMap(const QModelIndex &modelIndex
         map.insert(QString::fromLatin1(it.value()), sourceModel()->data(modelIndex, it.key()));
     return map;
 }
-
-#include "moc_qqmlsortfilterproxymodel.cpp"

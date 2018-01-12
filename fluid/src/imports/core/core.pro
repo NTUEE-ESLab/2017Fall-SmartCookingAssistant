@@ -12,7 +12,8 @@ HEADERS += \
     $$PWD/qqmlsortfilterproxymodel.h \
     $$PWD/standardpaths.h \
     $$PWD/windowdecoration.h \
-    $$PWD/coreplugin.h
+    $$PWD/coreplugin.h \
+    $$PWD/.moc/*.h
 
 SOURCES += \
     $$PWD/clipboard.cpp \
@@ -22,7 +23,8 @@ SOURCES += \
     $$PWD/qqmlsortfilterproxymodel.cpp \
     $$PWD/standardpaths.cpp \
     $$PWD/windowdecoration.cpp \
-    $$PWD/coreplugin.cpp
+    $$PWD/coreplugin.cpp \
+    $$PWD/.moc/*.cpp
 
 QML_FILES += \
     $$files($$PWD/*.qml)

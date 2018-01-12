@@ -34,14 +34,14 @@ Rectangle {
         image.source = ""
     }
 
-    function turnToStepPage(stepNum) {
-        if (stepNum === page.recipeContent.steps.length) {
+    function turnToStepPage() {
+        if (currentStep === page.recipeContent.steps.length) {
             stack.pop()
             cookingPage.parent = null
         }
 
-        controller.lightNum(page.recipeContent.steps[ stepNum ].used.ingredients)
-        controller.lightNum(page.recipeContent.steps[ stepNum ].used.seasonings)
+        controller.lightNum(page.recipeContent.steps[ currentStep ].used.ingredients)
+        controller.lightNum(page.recipeContent.steps[ currentStep ].used.seasonings)
 
         stepText.lineHeight = 1
         step = page.recipeContent.steps[ stepNum ].description
@@ -148,6 +148,8 @@ Rectangle {
 
     MouseArea {
         anchors.fill: parent
-        onClicked: turnPage(true)
+        onClicked: {
+            turnPage(true)
+        }
     }
 }
