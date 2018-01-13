@@ -64,6 +64,7 @@ sudo apt-get install python-pyaudio
 4. Compile and upload `msp432/msp432.ino` to the MSP432. 
 
 腳位參考:
+
 | #    | SR-04 trig | SR-04 echo | LED       |
 | ---- | ---------- | ---------  | --------- |
 | 1    | 5  (P4.1)  | 6 (P4.3)   | 40 (P2.7) |
@@ -72,6 +73,7 @@ sudo apt-get install python-pyaudio
 | 4    | 23 (P6.1)  | 24 (P4.0)  | 37 (P5.6) |
 | 5    | 25 (P4.2)  | 26 (P4.4)  | 36 (P6.6) |
 | 6    | 27 (P4.5)  | 28 (P4.7)  | 34 (P2.3) |
+
 [MSP432 的全部腳位對應圖](http://energia.nu/wordpress/wp-content/uploads/2015/03/2016-06-09-LaunchPads-MSP432-2.0-%E2%80%94-Pins-Maps.jpg)
 
 ### Solved Problems
