@@ -1,0 +1,309 @@
+__bss_start B 0000000000227630 
+__cxa_atexit U         
+__cxa_begin_catch U         
+__cxa_end_catch U         
+__cxa_finalize w         
+__cxa_guard_abort U         
+__cxa_guard_acquire U         
+__cxa_guard_release U         
+__cxa_rethrow U         
+__dynamic_cast U         
+_edata D 0000000000227630 
+_end B 00000000002276d8 
+_fini T 000000000001ad84 
+free U         
+__gmon_start__ w         
+__gxx_personality_v0 U         
+_init T 0000000000007f20 
+_ITM_deregisterTMCloneTable w         
+_ITM_registerTMCloneTable w         
+_Jv_RegisterClasses w         
+malloc U         
+memcmp U         
+memcpy U         
+pow U         
+qt_plugin_instance T 00000000000195b7 00000000000000bf
+qt_plugin_query_metadata T 00000000000195aa 000000000000000d
+qt_version_tag U         
+sqrt U         
+__stack_chk_fail U         
+strcmp U         
+strlen U         
+_Unwind_Resume U         
+_Z11qt_assert_xPKcS0_S0_i U         
+_Z25qEnvironmentVariableIsSetPKc U         
+_Z9qBadAllocv U         
+_Z9qt_assertPKcS0_i U         
+_ZdlPv U         
+_ZeqRK7QStringS1_ U         
+_Zls6QDebugRK9QQmlError U         
+_ZltRK7QStringS1_ U         
+_ZN10QArrayData10deallocateEPS_mm U         
+_ZN10QArrayData11shared_nullE U         
+_ZN10QByteArray11reallocDataEj6QFlagsIN10QArrayData16AllocationOptionEE U         
+_ZN10QByteArray6appendEc U         
+_ZN10QByteArray6appendEPKc U         
+_ZN10QByteArray6appendEPKci U         
+_ZN10QByteArrayC1EPKci U         
+_ZN10QClipboard11dataChangedEv U         
+_ZN10QClipboard16staticMetaObjectE U         
+_ZN10QClipboard5clearENS_4ModeE U         
+_ZN10QClipboard7setTextERK7QStringNS_4ModeE U         
+_ZN10QQmlEngine16addImageProviderERK7QStringP21QQmlImageProviderBase U         
+_ZN10QQmlEngineC1EP7QObject U         
+_ZN10QQmlEngineD1Ev U         
+_ZN11QMetaObject10ConnectionD1Ev U         
+_ZN11QMetaObject14normalizedTypeEPKc U         
+_ZN11QMetaObject8activateEP7QObjectPKS_iPPv U         
+_ZN11QQmlContext18setContextPropertyERK7QStringRK8QVariant U         
+_ZN11QQmlContextC1EPS_P7QObject U         
+_ZN11QQmlContextD1Ev U         
+_ZN11QQmlPrivate11qmlregisterENS_16RegistrationTypeEPv U         
+_ZN11QQmlPrivate30qdeclarativeelement_destructorEP7QObject U         
+_ZN12QMapDataBase10createDataEv U         
+_ZN12QMapDataBase10createNodeEiiP12QMapNodeBaseb U         
+_ZN12QMapDataBase11shared_nullE U         
+_ZN12QMapDataBase18recalcMostLeftNodeEv U         
+_ZN12QMapDataBase20freeNodeAndRebalanceEP12QMapNodeBase U         
+_ZN12QMapDataBase8freeDataEPS_ U         
+_ZN12QMapDataBase8freeTreeEP12QMapNodeBasei U         
+_ZN12QMapNodeBase25callDestructorIfNecessaryI7QStringEENSt9enable_ifIXsr9QTypeInfoIT_E9isComplexEvE4typeERS4_ W 00000000000172e4 000000000000001b
+_ZN12QMapNodeBase25callDestructorIfNecessaryI8QVariantEENSt9enable_ifIXsr9QTypeInfoIT_E9isComplexEvE4typeERS4_ W 00000000000172ff 000000000000001b
+_ZN12QPaintDeviceC2Ev U         
+_ZN12QSvgRenderer6renderEP8QPainter U         
+_ZN12QSvgRendererC1ERK7QStringP7QObject U         
+_ZN12QSvgRendererD1Ev U         
+_ZN12QTouchDevice7devicesEv U         
+_ZN14QQmlExpression12valueChangedEv U         
+_ZN14QQmlExpression16staticMetaObjectE U         
+_ZN14QQmlExpression23setNotifyOnValueChangedEb U         
+_ZN14QQmlExpression8evaluateEPb U         
+_ZN14QQmlExpressionC1ERK16QQmlScriptStringP11QQmlContextP7QObjectS6_ U         
+_ZN14QQmlExpressionD1Ev U         
+_ZN14QStandardPaths6locateENS_16StandardLocationERK7QString6QFlagsINS_12LocateOptionEE U         
+_ZN15QGuiApplication12platformNameEv U         
+_ZN15QGuiApplication13primaryScreenEv U         
+_ZN15QGuiApplication16staticMetaObjectE U         
+_ZN15QGuiApplication20primaryScreenChangedEP7QScreen U         
+_ZN15QGuiApplication9clipboardEv U         
+_ZN15QtSharedPointer20ExternalRefCountData9getAndRefEPK7QObject U         
+_ZN16QCoreApplication4selfE U         
+_ZN16QQmlParserStatusC2Ev U         
+_ZN16QQmlParserStatusD2Ev U         
+_ZN16QQmlScriptStringaSERKS_ U         
+_ZN16QQmlScriptStringC1ERKS_ U         
+_ZN16QQmlScriptStringC1Ev U         
+_ZN16QQmlScriptStringD1Ev U         
+_ZN18QAbstractItemModel10modelResetENS_14QPrivateSignalE U         
+_ZN18QAbstractItemModel11moveColumnsERK11QModelIndexiiS2_i U         
+_ZN18QAbstractItemModel11rowsRemovedERK11QModelIndexiiNS_14QPrivateSignalE U         
+_ZN18QAbstractItemModel12rowsInsertedERK11QModelIndexiiNS_14QPrivateSignalE U         
+_ZN18QAbstractItemModel13layoutChangedERK5QListI21QPersistentModelIndexENS_16LayoutChangeHintE U         
+_ZN18QAbstractItemModel16staticMetaObjectE U         
+_ZN18QAbstractItemModel8moveRowsERK11QModelIndexiiS2_i U         
+_ZN19QAbstractProxyModel11setItemDataERK11QModelIndexRK4QMapIi8QVariantE U         
+_ZN19QAbstractProxyModel16staticMetaObjectE U         
+_ZN19QAbstractProxyModel18sourceModelChangedENS_14QPrivateSignalE U         
+_ZN19QAbstractProxyModel6revertEv U         
+_ZN19QAbstractProxyModel6submitEv U         
+_ZN19QQmlExtensionPlugin11qt_metacallEN11QMetaObject4CallEiPPv U         
+_ZN19QQmlExtensionPlugin11qt_metacastEPKc U         
+_ZN19QQmlExtensionPlugin16staticMetaObjectE U         
+_ZN19QQmlExtensionPluginC2EP7QObject U         
+_ZN19QQmlExtensionPluginD2Ev U         
+_ZN19QQuickImageProvider13requestPixmapERK7QStringP5QSizeRKS3_ U         
+_ZN19QQuickImageProvider14requestTextureERK7QStringP5QSizeRKS3_ U         
+_ZN19QQuickImageProviderC2EN21QQmlImageProviderBase9ImageTypeE6QFlagsINS0_4FlagEE U         
+_ZN19QQuickImageProviderD2Ev U         
+_ZN21QPersistentModelIndexC1ERKS_ U         
+_ZN21QPersistentModelIndexD1Ev U         
+_ZN21QSortFilterProxyModel10insertRowsEiiRK11QModelIndex U         
+_ZN21QSortFilterProxyModel10invalidateEv U         
+_ZN21QSortFilterProxyModel10removeRowsEiiRK11QModelIndex U         
+_ZN21QSortFilterProxyModel11qt_metacallEN11QMetaObject4CallEiPPv U         
+_ZN21QSortFilterProxyModel11qt_metacastEPKc U         
+_ZN21QSortFilterProxyModel11setSortRoleEi U         
+_ZN21QSortFilterProxyModel12dropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex U         
+_ZN21QSortFilterProxyModel13insertColumnsEiiRK11QModelIndex U         
+_ZN21QSortFilterProxyModel13removeColumnsEiiRK11QModelIndex U         
+_ZN21QSortFilterProxyModel13setFilterRoleEi U         
+_ZN21QSortFilterProxyModel13setHeaderDataEiN2Qt11OrientationERK8QVarianti U         
+_ZN21QSortFilterProxyModel14setSourceModelEP18QAbstractItemModel U         
+_ZN21QSortFilterProxyModel15setFilterRegExpERK7QRegExp U         
+_ZN21QSortFilterProxyModel16invalidateFilterEv U         
+_ZN21QSortFilterProxyModel16staticMetaObjectE U         
+_ZN21QSortFilterProxyModel20setDynamicSortFilterEb U         
+_ZN21QSortFilterProxyModel4sortEiN2Qt9SortOrderE U         
+_ZN21QSortFilterProxyModel7setDataERK11QModelIndexRK8QVarianti U         
+_ZN21QSortFilterProxyModel9fetchMoreERK11QModelIndex U         
+_ZN21QSortFilterProxyModelC2EP7QObject U         
+_ZN21QSortFilterProxyModelD2Ev U         
+_ZN4QDirC1ERK7QString U         
+_ZN4QDirD1Ev U         
+_ZN5QDate11currentDateEv U         
+_ZN5QtQml10qmlContextEPK7QObject U         
+_ZN6QColor6setRgbEiiii U         
+_ZN6QColoraSERKS_ U         
+_ZN6QColorC1EN2Qt11GlobalColorE U         
+_ZN6QDebugD1Ev U         
+_ZN6QImage4fillEN2Qt11GlobalColorE U         
+_ZN6QImageC1ERK5QSizeNS_6FormatE U         
+_ZN6QImageC1Ev U         
+_ZN6QImageD1Ev U         
+_ZN7QObject10childEventEP11QChildEvent U         
+_ZN7QObject10disconnectEPKS_PKcS1_S3_ U         
+_ZN7QObject10timerEventEP11QTimerEvent U         
+_ZN7QObject11connectImplEPKS_PPvS1_S3_PN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeEPKiPK11QMetaObject U         
+_ZN7QObject11customEventEP6QEvent U         
+_ZN7QObject11eventFilterEPS_P6QEvent U         
+_ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv U         
+_ZN7QObject11qt_metacastEPKc U         
+_ZN7QObject11setPropertyEPKcRK8QVariant U         
+_ZN7QObject13connectNotifyERK11QMetaMethod U         
+_ZN7QObject16disconnectNotifyERK11QMetaMethod U         
+_ZN7QObject16staticMetaObjectE U         
+_ZN7QObject18installEventFilterEPS_ U         
+_ZN7QObject5eventEP6QEvent U         
+_ZN7QObject7connectIM14QQmlExpressionFvvEM21QSortFilterProxyModelFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE W 00000000000153f6 00000000000000c4
+_ZN7QObjectC2EPS_ U         
+_ZN7QObjectD2Ev U         
+_ZN7QRegExp10setPatternERK7QString U         
+_ZN7QRegExp16setPatternSyntaxENS_13PatternSyntaxE U         
+_ZN7QRegExpD1Ev U         
+_ZN7QScreen15geometryChangedERK5QRect U         
+_ZN7QScreen16staticMetaObjectE U         
+_ZN7QString13toUtf8_helperERKS_ U         
+_ZN7QString14trimmed_helperERKS_ U         
+_ZN7QString17fromLatin1_helperEPKci U         
+_ZN7QString6appendERKS_ U         
+_ZN7QStringaSERKS_ U         
+_ZN7QWindow16staticMetaObjectE U         
+_ZN8QPainterC1EP12QPaintDevice U         
+_ZN8QPainterD1Ev U         
+_ZN8QVariantaSERKS_ U         
+_ZN8QVariantC1Ei U         
+_ZN8QVariantC1ERK4QMapI7QStringS_E U         
+_ZN8QVariantC1ERKS_ U         
+_ZN8QVariantD1Ev U         
+_ZN9QDateTime15currentDateTimeEv U         
+_ZN9QDateTimeD1Ev U         
+_ZN9QHashData11free_helperEPFvPNS_4NodeEE U         
+_ZN9QHashData13detach_helperEPFvPNS_4NodeEPvEPFvS1_Eii U         
+_ZN9QHashData8nextNodeEPNS_4NodeE U         
+_ZN9QHashData9firstNodeEv W 000000000001485c 000000000000005b
+_ZN9QListData11detach_growEPii U         
+_ZN9QListData11shared_nullE U         
+_ZN9QListData6appendEv U         
+_ZN9QListData6detachEi U         
+_ZN9QListData7disposeEPNS_4DataE U         
+_ZN9QListData7reallocEi U         
+_ZN9QMetaType22registerNormalizedTypeERK10QByteArrayPFvPvEPFS3_S3_PKvEi6QFlagsINS_8TypeFlagEEPK11QMetaObject U         
+_ZN9QMetaType25registerConverterFunctionEPKN9QtPrivate25AbstractConverterFunctionEii U         
+_ZN9QMetaType25registerNormalizedTypedefERK10QByteArrayi U         
+_ZN9QMetaType27unregisterConverterFunctionEii U         
+_ZN9QMetaType30hasRegisteredConverterFunctionEii U         
+_ZN9QMetaType8typeNameEi U         
+_ZN9QQmlErrorD1Ev U         
+_ZNK10QByteArray6isNullEv U         
+_ZNK10QByteArray8endsWithEc U         
+_ZNK10QClipboard4textENS_4ModeE U         
+_ZNK10QQmlEngine14importPathListEv U         
+_ZNK11QMetaObject2trEPKcS1_i U         
+_ZNK11QMetaObject9classNameEv U         
+_ZNK11QObjectData17dynamicMetaObjectEv U         
+_ZNK12QTouchDevice4typeEv U         
+_ZNK14QMessageLogger7warningEv U         
+_ZNK14QQmlExpression5errorEv U         
+_ZNK14QQmlExpression8hasErrorEv U         
+_ZNK16QQmlScriptString7isEmptyEv U         
+_ZNK16QQmlScriptStringeqERKS_ U         
+_ZNK18QAbstractItemModel9roleNamesEv U         
+_ZNK19QAbstractProxyModel11sourceModelEv U         
+_ZNK19QAbstractProxyModel15canDropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex U         
+_ZNK19QAbstractProxyModel20supportedDragActionsEv U         
+_ZNK19QAbstractProxyModel8itemDataERK11QModelIndex U         
+_ZNK19QQuickImageProvider5flagsEv U         
+_ZNK19QQuickImageProvider9imageTypeEv U         
+_ZNK21QSortFilterProxyModel10filterRoleEv U         
+_ZNK21QSortFilterProxyModel10headerDataEiN2Qt11OrientationEi U         
+_ZNK21QSortFilterProxyModel11columnCountERK11QModelIndex U         
+_ZNK21QSortFilterProxyModel11hasChildrenERK11QModelIndex U         
+_ZNK21QSortFilterProxyModel11mapToSourceERK11QModelIndex U         
+_ZNK21QSortFilterProxyModel12canFetchMoreERK11QModelIndex U         
+_ZNK21QSortFilterProxyModel12filterRegExpEv U         
+_ZNK21QSortFilterProxyModel13mapFromSourceERK11QModelIndex U         
+_ZNK21QSortFilterProxyModel16filterAcceptsRowEiRK11QModelIndex U         
+_ZNK21QSortFilterProxyModel19filterAcceptsColumnEiRK11QModelIndex U         
+_ZNK21QSortFilterProxyModel20mapSelectionToSourceERK14QItemSelection U         
+_ZNK21QSortFilterProxyModel20supportedDropActionsEv U         
+_ZNK21QSortFilterProxyModel22mapSelectionFromSourceERK14QItemSelection U         
+_ZNK21QSortFilterProxyModel4dataERK11QModelIndexi U         
+_ZNK21QSortFilterProxyModel4spanERK11QModelIndex U         
+_ZNK21QSortFilterProxyModel5buddyERK11QModelIndex U         
+_ZNK21QSortFilterProxyModel5flagsERK11QModelIndex U         
+_ZNK21QSortFilterProxyModel5indexEiiRK11QModelIndex U         
+_ZNK21QSortFilterProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE U         
+_ZNK21QSortFilterProxyModel6parentERK11QModelIndex U         
+_ZNK21QSortFilterProxyModel7siblingEiiRK11QModelIndex U         
+_ZNK21QSortFilterProxyModel8lessThanERK11QModelIndexS2_ U         
+_ZNK21QSortFilterProxyModel8mimeDataERK5QListI11QModelIndexE U         
+_ZNK21QSortFilterProxyModel8rowCountERK11QModelIndex U         
+_ZNK21QSortFilterProxyModel9mimeTypesEv U         
+_ZNK21QSortFilterProxyModel9sortOrderEv U         
+_ZNK4QDir16absoluteFilePathERK7QString U         
+_ZNK4QDir6existsERK7QString U         
+_ZNK5QDate7addDaysEx U         
+_ZNK5QDate8toStringEN2Qt10DateFormatE U         
+_ZNK5QDate8toStringERK7QString U         
+_ZNK6QColor4redFEv U         
+_ZNK6QColor5blueFEv U         
+_ZNK6QColor6alphaFEv U         
+_ZNK6QColor6greenFEv U         
+_ZNK6QColorcv8QVariantEv U         
+_ZNK6QColoreqERKS_ U         
+_ZNK7QRegExp13patternSyntaxEv U         
+_ZNK7QRegExp7patternEv U         
+_ZNK7QScreen12physicalSizeEv U         
+_ZNK7QString10startsWithERKS_N2Qt15CaseSensitivityE U         
+_ZNK7QString3argERKS_i5QChar U         
+_ZNK7QString3argExii5QChar U         
+_ZNK7QWindow6handleEv U         
+_ZNK8QVariant3cmpERKS_ U         
+_ZNK8QVariant6toBoolEv U         
+_ZNK9QDateTime6secsToERKS_ U         
+_ZNK9QDateTime8toStringEN2Qt10DateFormatE U         
+_ZNSt13__atomic_baseIiEC2Ei W 0000000000008e12 0000000000000017
+_ZNSt13__atomic_baseIiEmmEv W 000000000000cb00 000000000000001f
+_ZNSt13__atomic_baseIiEppEv W 000000000000fc1a 000000000000001a
+_Znwm U         
+_ZSt4moveIR7QStringEONSt16remove_referenceIT_E4typeEOS3_ W 00000000000189ff 000000000000000e
+_ZSt4moveIRP7QObjectEONSt16remove_referenceIT_E4typeEOS4_ W 0000000000019b30 000000000000000e
+_ZSt4swapIP7QObjectEvRT_S3_ W 0000000000019b3e 0000000000000075
+_ZTI16QQmlParserStatus U         
+_ZTI19QQmlExtensionPlugin U         
+_ZTI19QQuickImageProvider U         
+_ZTI21QPlatformSurfaceEvent U         
+_ZTI21QSortFilterProxyModel U         
+_ZTI6QEvent U         
+_ZTI7QObject U         
+_ZTV6QImage U         
+_ZTVN10__cxxabiv120__si_class_type_infoE U         
+_ZTVN10__cxxabiv121__vmi_class_type_infoE U         
+===
+__bss_start B 0000000000227630 
+_edata D 0000000000227630 
+_end B 00000000002276d8 
+_fini T 000000000001ad84 
+_init T 0000000000007f20 
+qt_plugin_instance T 00000000000195b7 00000000000000bf
+qt_plugin_query_metadata T 00000000000195aa 000000000000000d
+_ZN12QMapNodeBase25callDestructorIfNecessaryI7QStringEENSt9enable_ifIXsr9QTypeInfoIT_E9isComplexEvE4typeERS4_ W 00000000000172e4 000000000000001b
+_ZN12QMapNodeBase25callDestructorIfNecessaryI8QVariantEENSt9enable_ifIXsr9QTypeInfoIT_E9isComplexEvE4typeERS4_ W 00000000000172ff 000000000000001b
+_ZN7QObject7connectIM14QQmlExpressionFvvEM21QSortFilterProxyModelFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE W 00000000000153f6 00000000000000c4
+_ZN9QHashData9firstNodeEv W 000000000001485c 000000000000005b
+_ZNSt13__atomic_baseIiEC2Ei W 0000000000008e12 0000000000000017
+_ZNSt13__atomic_baseIiEmmEv W 000000000000cb00 000000000000001f
+_ZNSt13__atomic_baseIiEppEv W 000000000000fc1a 000000000000001a
+_ZSt4moveIR7QStringEONSt16remove_referenceIT_E4typeEOS3_ W 00000000000189ff 000000000000000e
+_ZSt4moveIRP7QObjectEONSt16remove_referenceIT_E4typeEOS4_ W 0000000000019b30 000000000000000e
+_ZSt4swapIP7QObjectEvRT_S3_ W 0000000000019b3e 0000000000000075

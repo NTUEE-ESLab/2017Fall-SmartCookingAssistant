@@ -1,0 +1,73 @@
+__bss_start B 0000000000205130 
+__cxa_atexit U         
+__cxa_finalize w         
+__cxa_guard_acquire U         
+__cxa_guard_release U         
+_edata D 0000000000205130 
+_end B 0000000000205160 
+_fini T 0000000000002e48 
+__gmon_start__ w         
+__gxx_personality_v0 U         
+_init T 00000000000019d0 
+_ITM_deregisterTMCloneTable w         
+_ITM_registerTMCloneTable w         
+_Jv_RegisterClasses w         
+memcmp U         
+qt_plugin_instance T 00000000000027b9 00000000000000bf
+qt_plugin_query_metadata T 00000000000027ac 000000000000000d
+qt_version_tag U         
+__stack_chk_fail U         
+strcmp U         
+strlen U         
+_Unwind_Resume U         
+_Z9qt_assertPKcS0_i U         
+_ZdlPv U         
+_ZN10QArrayData10deallocateEPS_mm U         
+_ZN10QQmlEngine16addImageProviderERK7QStringP21QQmlImageProviderBase U         
+_ZN15QtSharedPointer20ExternalRefCountData9getAndRefEPK7QObject U         
+_ZN19QQmlExtensionPlugin11qt_metacallEN11QMetaObject4CallEiPPv U         
+_ZN19QQmlExtensionPlugin11qt_metacastEPKc U         
+_ZN19QQmlExtensionPlugin16staticMetaObjectE U         
+_ZN19QQmlExtensionPluginC2EP7QObject U         
+_ZN19QQmlExtensionPluginD2Ev U         
+_ZN19QQuickImageProvider12requestImageERK7QStringP5QSizeRKS3_ U         
+_ZN19QQuickImageProvider14requestTextureERK7QStringP5QSizeRKS3_ U         
+_ZN19QQuickImageProviderC2EN21QQmlImageProviderBase9ImageTypeE6QFlagsINS0_4FlagEE U         
+_ZN19QQuickImageProviderD2Ev U         
+_ZN5QIcon9fromThemeERK7QString U         
+_ZN5QIconD1Ev U         
+_ZN7QObject10childEventEP11QChildEvent U         
+_ZN7QObject10timerEventEP11QTimerEvent U         
+_ZN7QObject11customEventEP6QEvent U         
+_ZN7QObject11eventFilterEPS_P6QEvent U         
+_ZN7QObject13connectNotifyERK11QMetaMethod U         
+_ZN7QObject16disconnectNotifyERK11QMetaMethod U         
+_ZN7QObject5eventEP6QEvent U         
+_ZN7QPixmapC1ERK7QStringPKc6QFlagsIN2Qt19ImageConversionFlagEE U         
+_ZN7QPixmapD1Ev U         
+_ZN7QString17fromLatin1_helperEPKci U         
+_ZNK11QObjectData17dynamicMetaObjectEv U         
+_ZNK19QQuickImageProvider5flagsEv U         
+_ZNK19QQuickImageProvider9imageTypeEv U         
+_ZNK5QIcon6isNullEv U         
+_ZNK5QIcon6pixmapERK5QSizeNS_4ModeENS_5StateE U         
+_ZNK7QPixmap6scaledERK5QSizeN2Qt15AspectRatioModeENS3_18TransformationModeE U         
+_ZNK7QString10startsWithE5QCharN2Qt15CaseSensitivityE U         
+_ZNSt13__atomic_baseIiEmmEv W 0000000000002192 000000000000001f
+_Znwm U         
+_ZSt4moveIRP7QObjectEONSt16remove_referenceIT_E4typeEOS4_ W 0000000000002d44 000000000000000e
+_ZSt4swapIP7QObjectEvRT_S3_ W 0000000000002d52 0000000000000075
+_ZTI19QQmlExtensionPlugin U         
+_ZTI19QQuickImageProvider U         
+_ZTVN10__cxxabiv120__si_class_type_infoE U         
+===
+__bss_start B 0000000000205130 
+_edata D 0000000000205130 
+_end B 0000000000205160 
+_fini T 0000000000002e48 
+_init T 00000000000019d0 
+qt_plugin_instance T 00000000000027b9 00000000000000bf
+qt_plugin_query_metadata T 00000000000027ac 000000000000000d
+_ZNSt13__atomic_baseIiEmmEv W 0000000000002192 000000000000001f
+_ZSt4moveIRP7QObjectEONSt16remove_referenceIT_E4typeEOS4_ W 0000000000002d44 000000000000000e
+_ZSt4swapIP7QObjectEvRT_S3_ W 0000000000002d52 0000000000000075
