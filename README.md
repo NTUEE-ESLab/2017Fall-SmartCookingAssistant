@@ -106,6 +106,7 @@ BLE Profiles 在執行過 [Energia 的範例](http://energia.nu/reference/ble/bl
 This project contains C++ for BackEnd and QML for FrontEnd. Note that this project can only be built with Speech Recognition server, BLE server, and Node server (Or you can comment line 75,76 in `src/appInstance.cpp` and line 43,44 in `src/CookingPage.xml`).
 
 User can view local recipes in 你的珍藏 and play those recipes to learn cooking, and get new recipes other people share from 商店街 (however, this functionality is not yet completely provided).
+
 <img src="https://i.imgur.com/7Nb504P.png" width="300" height="225"> <img src="https://i.imgur.com/4Aw14rv.png" width="300" height="225">
 
 <img src="https://i.imgur.com/3ByGK8x.png" width="300" height="225">  <img src="https://i.imgur.com/JkCNsPl.png" width="300" height="225">
