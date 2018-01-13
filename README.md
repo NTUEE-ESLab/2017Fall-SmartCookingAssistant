@@ -55,6 +55,7 @@ sudo apt-get install python-pyaudio
 ## Hardware Prototype
 
 　　這個裝置主要的目標是偵測位置上有沒有放置物品，以及提醒使用者哪個位置放有要使用的物品。使用的感測器為 SR-04 超音波測距模組。使用者在拿起提示的物品之後，燈會自動熄滅。
+  
  <img src="https://i.imgur.com/E4UXhW0.jpg" width="60%" height="60%">
 
 ### How to reproduce:
