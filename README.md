@@ -16,7 +16,7 @@
 * MySQL 5.7.8
 
 ## 專案架構
- ![](https://i.imgur.com/CSf8xPK.png =75%x75%) 
+ <img src="https://i.imgur.com/CSf8xPK.png" width="75%" height="75%">
 
 * 雲端共享食譜平台。
 * Local 端以語音操控 RPi 上的介面。
@@ -55,8 +55,8 @@ sudo apt-get install python-pyaudio
 ## Hardware Prototype
 
 　　這個裝置主要的目標是偵測位置上有沒有放置物品，以及提醒使用者哪個位置放有要使用的物品。使用的感測器為 SR-04 超音波測距模組。使用者在拿起提示的物品之後，燈會自動熄滅。
+ <img src="https://i.imgur.com/E4UXhW0.jpg" width="60%" height="60%">
 
-![](https://i.imgur.com/E4UXhW0.jpg =60%x60%)
 ### How to reproduce:
 1. 安裝 [Energia](http://energia.nu/download/)
 2. 在 Energia 中安裝對應 CC2650 模組的 BLE 函式庫<br/>(Sketch>Include Library>Manage Libraries...)
@@ -104,10 +104,9 @@ BLE Profiles 在執行過 [Energia 的範例](http://energia.nu/reference/ble/bl
 This project contains C++ for BackEnd and QML for FrontEnd. Note that this project can only be built with Speech Recognition server, BLE server, and Node server (Or you can comment line 75,76 in `src/appInstance.cpp` and line 43,44 in `src/CookingPage.xml`).
 
 User can view local recipes in 你的珍藏 and play those recipes to learn cooking, and get new recipes other people share from 商店街 (however, this functionality is not yet completely provided).
+<img src="https://i.imgur.com/7Nb504P.png" width="300" height="225"> <img src="https://i.imgur.com/4Aw14rv.png" width="300" height="225">
 
-![](https://i.imgur.com/7Nb504P.png =300x225)    ![](https://i.imgur.com/4Aw14rv.png =300x225)
-
-![](https://i.imgur.com/3ByGK8x.png =300x225)    ![](https://i.imgur.com/JkCNsPl.png =300x225)
+<img src="https://i.imgur.com/3ByGK8x.png" width="300" height="225">  <img src="https://i.imgur.com/JkCNsPl.png" width="300" height="225">
 
 
 
@@ -182,11 +181,11 @@ Information(id, name, and content) of Recipe retrieved from MySQL is sent back t
 
 ---
 # 參考文獻與資料
-https://superuser.com/questions/989385/how-to-make-raspberry-pi-use-an-external-usb-sound-card-as-a-default
+USB sound card: https://superuser.com/questions/989385/how-to-make-raspberry-pi-use-an-external-usb-sound-card-as-a-default
 
-https://www.raspberrypi.org/forums/viewtopic.php?t=124016
+USB sound card: https://www.raspberrypi.org/forums/viewtopic.php?t=124016
 
-https://github.com/Uberi/speech_recognition
+Speech Recognition: https://github.com/Uberi/speech_recognition
 
 Introduction to QtQuick: https://doc.qt.io/qt-5.10/qtquick-index.html
 
