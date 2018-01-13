@@ -88,7 +88,7 @@ Item {
                     right: parent.right
                     top: parent.top
                 }
-                name: url + "/../../fluid/icons/content/clear.svg"
+                name: "content/clear"
 
                 MouseArea {
                     anchors.fill: parent
@@ -112,7 +112,7 @@ Item {
             }
 
             Icon {
-                name: url + "/../../fluid/icons/av/play_circle_filled_white.svg"
+                name: "av/play_circle_filled_white"
                 anchors.centerIn: image
                 size: 70
 
