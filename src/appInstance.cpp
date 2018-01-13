@@ -51,12 +51,12 @@ namespace app {
     auto Instance::Connect() -> void {
         QTextStream out(stdout);
         out << "connect start" << endl;
-        qtcpSpeech = new QTcpSocket;
-        qtcpSpeech->connectToHost("192.168.1.153", 8001, QIODevice::ReadWrite);
-        qtcpSpeech->waitForConnected();/*
         qtcpMSP432 = new QTcpSocket;
         qtcpMSP432->connectToHost("192.168.1.153", 8002, QIODevice::ReadWrite);
-        qtcpMSP432->waitForConnected();*/
+        qtcpMSP432->waitForConnected();
+        qtcpSpeech = new QTcpSocket;
+        qtcpSpeech->connectToHost("192.168.1.153", 8001, QIODevice::ReadWrite);
+        qtcpSpeech->waitForConnected();
 
         while(1) {
             qtcpSpeech->waitForReadyRead();

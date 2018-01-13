@@ -61,7 +61,7 @@ Item {
                             top: parent.top
                         }
                         height: 200
-                        source: "file://" + applicationDirPath + "/../Resource/" + id + "/cover.jpg"
+                        source: "file://" + applicationDirPath + "/../../Resource/" + id + "/cover.jpg"
 
                         BusyIndicator {
                             anchors.centerIn: parent
@@ -87,7 +87,7 @@ Item {
                         anchors.fill: parent
                         onClicked: {
                             scroll.interactive = false
-                            recipe.url = "file://" + applicationDirPath + "/../Resource/" + id
+                            recipe.url = "file://" + applicationDirPath + "/../../Resource/" + id
                             recipe.title = title
                             recipe.state = "visible"
                         }

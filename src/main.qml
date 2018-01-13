@@ -42,7 +42,7 @@ ApplicationWindow {
         actions: [
             Action {
                 text: "你的珍藏"
-                iconName: "action/stars"
+                iconName: "file:///home/bentsai/Desktop/EmbeddedSystem/SmartCookingAssistant/fluid/icons/action/stars"
                 onTriggered: {
                     if (pageIndex === 1) {
                         stack.pop()

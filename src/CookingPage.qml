@@ -35,17 +35,17 @@ Rectangle {
     }
 
     function turnToStepPage() {
-        if (currentStep === page.recipeContent.steps.length) {
+        if (currentStep - 3 === page.recipeContent.steps.length) {
             stack.pop()
             cookingPage.parent = null
         }
 
-        controller.lightNum(page.recipeContent.steps[ currentStep ].used.ingredients)
-        controller.lightNum(page.recipeContent.steps[ currentStep ].used.seasonings)
+        controller.lightNum(page.recipeContent.steps[ currentStep - 3 ].used.ingredients)
+        controller.lightNum(page.recipeContent.steps[ currentStep - 3 ].used.seasonings)
 
         stepText.lineHeight = 1
-        step = page.recipeContent.steps[ stepNum ].description
-        image.source = url + "/" + currentStep + ".jpg"
+        step = page.recipeContent.steps[ currentStep - 3 ].description
+        image.source = url + "/" + (currentStep - 3) + ".jpg"
     }
 
     function turnPage(turn) {
@@ -78,7 +78,7 @@ Rectangle {
                     turnToSeasoningPage()
                     break
                 default:
-                    turnToStepPage(currentStep)
+                    turnToStepPage()
                 }
 
                 return QuickStreams.create(function(stream) {
