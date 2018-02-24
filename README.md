@@ -5,8 +5,7 @@
 # 作法
 
 ## 開發環境
-
-* <font color=red>MSP432</font> P401R LaunchPad Development Kit
+* MSP432 P401R LaunchPad Development Kit
 * TI SimpleLink<sup>TM</sup> CC2650 module
 * Raspberry Pi 3
 * python2.7
